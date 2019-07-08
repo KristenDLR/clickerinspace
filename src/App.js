@@ -20,8 +20,9 @@ render (){
   return (
     <Wrapper>
     {/* <h1 className="title">Clicker in Space</h1> */}
-    <Nav> Clicker in Space</Nav>
-    {this.state.card.map(cards => (
+    {/*./src/App.js Attempted import error: './component/Nav/Nav' does not contain a default export (imported as 'Nav').}
+    {/* <Nav></Nav> */}
+    {this.state.cards.map(cards => (
       <Card
       id={cards.id}
       key={cards.id}
@@ -29,22 +30,6 @@ render (){
       image={cards.image}
       />
     ))}
-    {/* <Card
-      name={cards[0].name}
-      image={cards[0].image}
-    />
-    <Card
-      name={cards[1].name}
-      image={cards[1].image}
-    />
-    <Card
-      name={cards[2].name}
-      image={cards[2].image}
-    />
-    <Card
-      name={cards[2].name}
-      image={cards[2].image}
-    /> */}
   </Wrapper>
   );
 }
