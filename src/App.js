@@ -60,8 +60,6 @@ if(this.state.score > this.state.topScore){
 render (){
   return (
     <Wrapper>
-    <h1 className="title">Clicker in Space</h1>
-    {/*./src/App.js Attempted import error: './component/Nav/Nav' does not contain a default export (imported as 'Nav').*/}
      <Nav></Nav>
     {this.state.cards.map(cards => (
       <Card
