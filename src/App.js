@@ -7,6 +7,7 @@ import Wrapper from "./component/Wrapper/Wrapper";
 import Nav from "./component/Nav/Nav";
 import cards from "./cards.json";
 import "./App.css";
+import Directions from "./component/Directions/Directions";
 
 class App extends React.Component {
   //Setting this.state.cards to the cards json array
@@ -71,6 +72,9 @@ class App extends React.Component {
         <Nav score={this.state.score}/>
         <Container>
           <Row>
+          </Row>
+            <Directions></Directions>
+            <Row>
             {this.state.cards.map(cards => (
               <Col
                 xs={12}
