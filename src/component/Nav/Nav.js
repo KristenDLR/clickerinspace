@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
+
 //include title, message, and score
 const Nav = ({score}) => (
   <nav className="Nav">
