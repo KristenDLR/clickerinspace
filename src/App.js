@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import { BrowserRouter as Router, Route } from 'react-router-dom'
 // import Nav from './component/Nav/Nav'
@@ -75,7 +75,7 @@ class App extends React.Component {
           </Row>
             <Directions></Directions>
             <Row>
-            {this.state.cards.map(cards => (
+            {this.state.cards.map(cards => {return (
               <Col
                 xs={12}
                 m={6}
@@ -91,7 +91,7 @@ class App extends React.Component {
                     image={cards.image}
                   />
               </Col>
-            ))}
+            )})}
           </Row>
         </Container>
       </Wrapper>

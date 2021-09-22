@@ -9,7 +9,7 @@ function Card(props) {
             // onClick={props.clickHandler(props.id)}
           >
             <div className="img-container">
-              <img alt={props.name} src={props.image} />
+              <img alt={props.image.replace(".jpg", "")} src={require("../../../public/images/" + props.image)} />
             </div>
 
           </div>
