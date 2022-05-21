@@ -1,0 +1,11 @@
+Nav{
+  background: rgba(126, 213, 126, 0.918);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: purple;
+  padding: 0px 200px 0px;
+  top:0;
+}
+
+Nav .title {
+  margin-top: 0;
+}

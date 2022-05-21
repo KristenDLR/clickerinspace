@@ -1,0 +1,66 @@
+
+[
+  {
+    "id": 1,
+    "name": "Rocket ship",
+    "image": "rocketShip.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Astronaut Helmet",
+    "image": "astronautHelmet.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Astronaut",
+    "image": "astronaut.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Alien",
+    "image": "alien.jpg"
+  },
+  {
+    "id": 5,
+    "name": "blackhole",
+    "image": "blackhole.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Meteor",
+    "image": "meteor.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Planet",
+    "image": "planet.jpg"
+  },
+  {
+    "id": 8,
+    "name": "satelite",
+    "image": "satelite.jpg"
+  },
+  {
+    "id": 9,
+    "name": "shootingStar",
+    "image": "shootingStar.jpg"
+  },
+  {
+    "id": 10,
+    "name": "sun",
+    "image": "sun.jpg"
+  },
+  {
+    "id": 11,
+    "name": "telescope",
+    "image": "telescope.jpg"
+  },
+  {
+    "id": 12,
+    "name": "ufo",
+    "image": "ufo.jpg"
+  }
+
+
+
+]
