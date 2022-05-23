@@ -74,7 +74,7 @@ class App extends React.Component {
           <Row>
             <Directions></Directions>
             </Row>
-            <Row>
+            <Row style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
             
               
                 {this.state.cards.map(cards => {return (
@@ -82,6 +82,7 @@ class App extends React.Component {
                   xs={12}
                   m={6}
                   lg={4}
+                  style={{flex: 1}}
                   onClick={() => {
                     this.clickCard(cards.id)
                   }}
@@ -91,7 +92,7 @@ class App extends React.Component {
                     key={cards.id}
                     name={cards.name}
                     image={cards.image}
-                    
+                   
                   />
              </Col>
             )})}
