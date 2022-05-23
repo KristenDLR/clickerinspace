@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Kalam:wght@300&family=Press+Start+2P&family=Viga&display=swap');
+
+
 Nav{
-  background: rgba(126, 213, 126, 0.918);
+  background:linear-gradient(rgba(126, 213, 126, 0.918),rgb(134,148,190)
+  ) ;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: purple;
-  padding: 0px 200px 0px;
+  padding: 20px 200px 0px;
   top:0;
+  border-color: rgb(134,148,190);
+  border-width: 50px;
+  font-family: 'Press Start 2P', cursive;
+  display: 'flex';
+  flex-direction: 'row'; 
+  flex-wrap: 'wrap';
 }
+
 
 Nav .title {
   margin-top: 0;
+}
+
+p{
+text-align: right;
+color: #ccff00;
+padding-bottom:20px;
+}
+
+img{
+  background: transparent;
 }
